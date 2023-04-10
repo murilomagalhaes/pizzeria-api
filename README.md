@@ -15,8 +15,8 @@ A documentação da API foi feita utilizando Swagger e OpenAPI 3.0, e  pode ser 
 **Instruções**
 - Clone o projeto
 - ``npm install``
-- ``npm seed:pizzas``
-- ``npm seed:admin``
+- ``npm run seed:pizzas``
+- ``npm run seed:admin``
 - Utilize a rota ``/login`` para autenticar-se e utilize o token no Authentication Header para acessar os demais endpoints. 
 
 **Usuário Admin**
