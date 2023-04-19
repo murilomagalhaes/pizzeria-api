@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(require('cors')({
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
-    origin: `http://127.0.0.1:${process.env.APP_PORT}`
+    origin: `${process.env.APP_URL}:${process.env.APP_PORT}`
 }));
 
 // Routes
